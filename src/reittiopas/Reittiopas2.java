@@ -70,7 +70,7 @@ public class Reittiopas2 {
                 if (uusi.equals(maali)) {
 //                    System.out.println("jep");
                     loydetty = true;
-                    maaliTila = new Tila2(uusi, t, lahto, Math.abs(0 - aika), 0, aika, heuristinenArvio(uusi, maali, verkko));
+                    maaliTila = new Tila2(uusi, t, maali, Math.abs(0 - aika), 0, aika, heuristinenArvio(uusi, maali, verkko));
                     break;
                 }
                 if (!sisaltaako(uusi, pq) && !loydetyt.contains(uusi)) {
